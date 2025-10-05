@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family:apple ;
+    src: url(/galary/sf-pro-text_medium\ \(1\).woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: apple;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: #1D1D1F;
+    display: flex;
+    align-items: center;
+    color:white;
+    justify-content: center;
+    gap: 45px;
+    cursor: pointer;
+    
+}
+.nav h4{
+    font-weight: 100;
+    font-size: 15px;
+}
+.homepage{
+    width: 100%;
+    height: calc(100% - 70px);
+    background-color: black;
+    text-align: center;
+    background-image: url(/galary/iphone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(150%);
+}
+.homepage h2{
+    /* padding: 20px; */
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: 100;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.homepage h4{
+    margin-top: 5px;
+    font-size: 23px;
+    font-weight: 100;
+}
+.btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: black;
+
+}
+.btn .btn1{
+    color:white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
+}
+.btn .btn2{
+    color: rgb(0, 149, 255);
+    padding: 13px 18px;
+    font-weight: 300;
+    border-radius: 50px;
+    border: 2px solid ;
+    cursor: pointer;
+    border: 1px solid rgba(0, 157, 255, 0.683);
+    background: transparent;
+
+}
+ .main .airpod{
+    width: 100%;
+    height: 80%;
+    background-color:#F5F5F7;
+    text-align: center;
+    padding: 60px;
+    background-image: url(/galary/newiphone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+
+}
+.airpod h2{
+    font-size: 56px;
+    font-weight: 500;
+      background: -webkit-linear-gradient(left, #fff, #ff7300, #ff0080, #0073ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.airpod p{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 3px;
+    color: black;
+}
+.airpod #btns{
+    border: none;
+    padding: 12px 19px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.airpod #btns1{
+    padding:13px 20px ;
+    border: none;
+    font-size: 17px;
+    font-weight: 200;
+    border: 1px solid rgba(0, 157, 255, 0.683);
+    background: transparent;
+    color: rgb(0, 149, 255);
+}
+.airpod #btns1:hover{
+  background-color:  rgb(0, 140, 255);
+  color: white;
+}
